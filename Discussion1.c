@@ -23,14 +23,16 @@ int main(void)
 
 	//The area of a circle is defined as P*r^2
 	area = PI * radius * radius;
-	printf("\nArea of this circle : %f", area);
+	printf("\nArea of this circle: %f", area);
 
 	//The circumfrence of a circle is defined as 2*pi*r
 	circum = 2 * PI * radius;
-	printf("\nCircumfrence of this circle : %f", circum);
+	printf("\nCircumfrence of this circle: %f", circum);
+
+	diameter = 2 * radius;
+	printf("\nDiameter of this circle: %d", diameter);
 	
 	//Extra printf to add empty line
 	printf(" \n");
-
 
 } // end function main
