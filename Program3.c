@@ -12,13 +12,13 @@ MODULE 2: CHAPTER 1 PROGRAM
 int main(void)
 {
 	//Declare the variable which will be the total sum calculated in the loop
-	int totalSum = 0;
+	float totalSum = 0;
 
 	//Declare the variable which will be the tempSum in the loop which values from the scanner will be stored temporarily 
-	int tempSum = 0;
+	float tempSum = 0;
 
 	//Declare the variable which will store the amount of integers in the sequence
-	int numInts = 0;
+	float numInts = 0;
 
 	//Declare the variable which will store the calculated average.
 	float avg;
@@ -29,7 +29,7 @@ int main(void)
 
 		//Scan input from the user and store it in tempSum
 		printf("\nEnter an integer to be added to the sequence (-1 to exit)\n");
-		scanf("%d", &tempSum);
+		scanf("%f", &tempSum);
 
 
 		//If the user has inputted -1 then break
