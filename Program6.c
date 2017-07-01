@@ -2,8 +2,6 @@
 Benjamin Swanson
 6/30/2017
 MODULE 3: CHAPTER 7 PROGRAM
-
-NOTE: I used the code out of the text book as a base
 */
 
 
